@@ -1,3 +1,3 @@
 # project_clock_desk
 
-More detail project into folder document.
+More detail project into folder documents.
