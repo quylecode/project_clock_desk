@@ -1,0 +1,46 @@
+@startuml 
+skinparam arrowcolor red
+skinparam stateBackgroundColor yellow  
+
+[*] --> BOOT_STATE
+BOOT_STATE: Start screen when reboot clock
+WAIT_STATE: Display main clock screen
+MENU_STATE: Display icon and choose apps
+GAME_STATE: Snake game
+CLOCK_STATE: Set time, reminder, count down, stop watch
+THEME_STATE: Change clock type and dark mode, light mode
+DIAGNOSTIC_STATE: Check connect of button, buzzer, temp sensor, screen, led rgb, realtime module
+PC_CONTROL_STATE: Command control and video stream
+
+
+BOOT_STATE --> BOOT_STATE: else
+BOOT_STATE --> WAIT_STATE: hold select button
+
+WAIT_STATE --> WAIT_STATE: else
+WAIT_STATE --> MENU_STATE: click select button
+
+MENU_STATE --> MENU_STATE: else
+MENU_STATE --> GAME_STATE: click select button \n && id_app == game
+MENU_STATE --> THEME_STATE: click select button \n && id_app == theme
+MENU_STATE --> DIAGNOSTIC_STATE: click select button \n && id_app == diagnostic
+MENU_STATE --> PC_CONTROL_STATE: click select button \n && id_app == pc_control
+MENU_STATE --> CLOCK_STATE: click select button \n && id_app == clock
+
+GAME_STATE --> MENU_STATE: click cancel button
+GAME_STATE --> WAIT_STATE: hold cancel button
+
+THEME_STATE --> MENU_STATE: click cancel button \n || hold cancel button
+DIAGNOSTIC_STATE --> MENU_STATE: click cancel button \n || hold cancel button
+CLOCK_STATE --> MENU_STATE: click cancel button \n || hold cancel button
+PC_CONTROL_STATE --> MENU_STATE: click cancel button \n || hold cancel button
+
+GAME_STATE --> GAME_STATE: else
+THEME_STATE --> THEME_STATE: else
+DIAGNOSTIC_STATE --> DIAGNOSTIC_STATE: else
+CLOCK_STATE --> CLOCK_STATE: else
+PC_CONTROL_STATE --> PC_CONTROL_STATE: else
+
+MENU_STATE --> WAIT_STATE: click cancel button
+
+
+@enduml

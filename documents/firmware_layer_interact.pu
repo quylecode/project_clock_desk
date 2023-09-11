@@ -1,0 +1,38 @@
+@startuml
+
+box BSP #LightBlue
+participant I2C
+participant UART
+participant FLASH
+participant TIMER_PWM
+participant BUTTON
+end box
+
+box Driver #IndianRed
+participant SSD1306
+participant DS1307
+participant CJMCU75
+participant LED_RGB
+participant BUZZER
+end box
+
+box Middleware #SeaGreen
+participant Circular_buffer
+participant Font
+participant Sound
+participant Snake
+participant Icon
+end box
+
+box System #Orange
+participant Display
+participant Time
+participant Led
+participant Sensor
+participant Game
+participant System_Manager
+end box
+
+actor User
+
+@enduml
