@@ -7,8 +7,6 @@
     <a href="https://github.com/vyluu-itr/07-2023-itr-intern-group-2/tree/release/0.1.0"><img src="https://img.shields.io/badge/release-v1.2.1-blue"></a>
     <a href=""><img src="https://img.shields.io/badge/language-C/C++-aff.svg"></a>
     <a href="https://www.st.com/en/development-tools/stm32cubeide.html"><img src="https://img.shields.io/badge/ide-STM32CubeIDE-pink.svg"></a>
-    <a href="https://itrvn.com/"><img src="https://img.shields.io/badge/source-ITR%20VN-yel.svg"></a>
-
 </p>
 
 Smart Desk Clock is next generation product that brings smart solutions to manage time and provide entertainment services available on the device
