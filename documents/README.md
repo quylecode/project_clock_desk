@@ -76,7 +76,7 @@ We welcome contributions to this project! To ensure a smooth contribution proces
 6. Create a Pull Request with a detailed description of the changes you have made.
 7. Wait for feedback and make any requested changes from the code reviewer.
 8. Once your Pull Request is approved, thank you for your contribution and support!
-* **Note**: Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please submit a pull request or open an issue on the project's [GitHub repository](https://github.com/vyluu-itr/07-2023-itr-intern-group-2/tree/main/final_project) or contact us [ITR VN](https://itrvn.com/).
+* **Note**: Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please submit a pull request or open an issue on the project's [GitHub repository](https://github.com/vyluu-itr/07-2023-itr-intern-group-2/tree/main/final_project).
 
 ## License
 This project is licensed under the [ISO/27001 License](https://www.iso.org/standard/27001). Please see the LICENSE file for more details.
