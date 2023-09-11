@@ -23,11 +23,7 @@ Smart Desk Clock is next generation product that brings smart solutions to manag
 - [Features](#features)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Demo Smart Desk Clock](#demo-smart-desk-clock)
-
-
-
 
 ## Technologies
  <p align="center">
@@ -58,7 +54,7 @@ The SmartDeskClock includes Includes new capabilities such as:
 6. Read our [release note](./RELEASE_NOTE.md) for more details and Look forward to other exciting features in the future . 
 
 ## Usage
-1. Clone the project repository from [GitHub ↗](https://github.com/vyluu-itr/07-2023-itr-intern-group-2/tree/main/final_project).
+1. Clone the project repository from [GitHub ↗](https://github.com/quylecode/project_clock_desk).
 2. Set up your development environment with the required IDE (STM32CubeIDE) and toolchain and open the project in the chosen IDE.
 3. Read our [diagram](./wire_connection.png) to connect the necessary peripherals or sensors to the STM32 microcontroller.
 4. Deploy the firmware to the STM32 microcontroller using the appropriate flashing method (e.g., ST-Link, DFU, or bootloader).
@@ -74,10 +70,7 @@ We welcome contributions to this project! To ensure a smooth contribution proces
 6. Create a Pull Request with a detailed description of the changes you have made.
 7. Wait for feedback and make any requested changes from the code reviewer.
 8. Once your Pull Request is approved, thank you for your contribution and support!
-* **Note**: Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please submit a pull request or open an issue on the project's [GitHub repository](https://github.com/vyluu-itr/07-2023-itr-intern-group-2/tree/main/final_project).
-
-## License
-This project is licensed under the [ISO/27001 License](https://www.iso.org/standard/27001). Please see the LICENSE file for more details.
+* **Note**: Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please submit a pull request or open an issue on the project's [GitHub repository](https://github.com/quylecode/project_clock_desk).
 
 ## Demo Smart Desk Clock 
 Below are a few typical features of Smart Desk Clock 
