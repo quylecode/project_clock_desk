@@ -11,7 +11,7 @@
 
 </p>
 
-Smart Desk Clock is [ITR VN](https://itrvn.com/)'s next generation product that brings smart solutions to manage time and provide entertainment services available on the device
+Smart Desk Clock is next generation product that brings smart solutions to manage time and provide entertainment services available on the device
 
 ## Learn More about Smart Desk Clock 
  <p align="center">
